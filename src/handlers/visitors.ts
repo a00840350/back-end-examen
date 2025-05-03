@@ -13,7 +13,7 @@ export class VisitorsHttpHandler {
             if (!Usuario || !password) {
                 res.status(400).json({
                     success: false,
-                    message: "Usuario and password required"
+                    message: "Data required"
                 });
                 return;
             }
