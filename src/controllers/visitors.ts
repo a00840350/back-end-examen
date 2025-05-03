@@ -27,7 +27,7 @@ export class VisitorController{
         } else {
             return {
                 success: false,
-                message: "Acceso no permitido: Usuario o contraseña incorrectos"
+                message: "Acceso no permitido"
             };
         }
     }
